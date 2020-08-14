@@ -17,7 +17,7 @@
   
 ## 4.Instalar tensorflow 2.1
     $conda install tensorflow-gpu
-    $conda install tensroflow==2.1
+    $conda install tensorflow==2.1
 
 ## 5. Instalar jupyter
     $conda install jupyter
