@@ -16,8 +16,8 @@
     $python -m ipykernel install --user --name entornoGPU --display-name "entornoGPU"
   
 ## 4.Instalar tensorflow 2.1
-    $conda install tensroflow==2.1
     $conda install tensorflow-gpu
+    $conda install tensroflow==2.1
 
 ## 5. Instalar jupyter
     $conda install jupyter
