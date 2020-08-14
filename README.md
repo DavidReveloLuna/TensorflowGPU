@@ -6,8 +6,8 @@
 ## 2. Instalar anaconda o miniconda
   https://www.anaconda.com/products/individual
   
-## 3. Crear entorno con python 3.7
-    $conda create -n entornoGPU anaconda python=3.7
+## 3. Crear entorno con python 3.7.7
+    $conda create -n entornoGPU anaconda python=3.7.7
     
     $conda activate enetornoGPU
     
