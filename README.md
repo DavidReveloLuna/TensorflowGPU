@@ -6,30 +6,23 @@
 ## 2. Instalar anaconda o miniconda
   https://www.anaconda.com/products/individual
   
-## 3. Crear entorno con python 3.7.7
-    $conda create -n entornoGPU anaconda python=3.7.7
-    
-    $conda activate enetornoGPU
-    
-    $conda install ipykernel
-    
-    $python -m ipykernel install --user --name entornoGPU --display-name "entornoGPU"
+## 3. Preparación del entorno
+    $ conda create -n entornoGPU anaconda python=3.7.7
+    $ conda activate entornoGPU
+    $ conda install ipykernel
+    $ python -m ipykernel install --user --name entornoGPU --display-name "entornoGPU"
+    $ conda install tensorflow-gpu==2.1.0 cudatoolkit=10.1
+    $ pip install tensorflow==2.1.0
+    $ pip install jupyter
+    $ pip install keras
+    $ pip install numpy scipy Pillow cython matplotlib scikit-image opencv-python h5py imgaug IPython[all]
   
-## 4.Instalar tensorflow 2.1
-    $conda install tensorflow-gpu==2.1.0 cudatoolkit=10.1
-    $pip install tensorflow==2.1
 
-## 5. Instalar jupyter
-    $conda install jupyter
-
-## 6. Instalar keras
-    $conda install keras
-
-## 7. Probar versión y gpu
+## 4. Probar versión y gpu
     $python
     $import tensorflow as tf
     $tf.__version__
     $tf.test.gpu_device_name()
 
-## 8. Probar entrenamieneto 
+## 5. Probar entrenamieneto 
    Ejecutar archivo MNISTEjmGPU.ipyng
