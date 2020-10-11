@@ -14,7 +14,7 @@
     $ conda install tensorflow-gpu==2.1.0 cudatoolkit=10.1
     $ pip install tensorflow==2.1.0
     $ pip install jupyter
-    $ pip install keras
+    $ pip install keras==2.3.1
     $ pip install numpy scipy Pillow cython matplotlib scikit-image opencv-python h5py imgaug IPython[all]
   
 
