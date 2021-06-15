@@ -26,3 +26,6 @@
 
 ## 5. Probar entrenamieneto 
    Ejecutar archivo MNISTEjmGPU.ipyng
+
+# **Canal de Youtube**
+[Click aquì pare ver mi canal de YOUTUBE](https://www.youtube.com/channel/UCr_dJOULDvSXMHA1PSHy2rg)
